@@ -96,3 +96,8 @@ compare(test_list,coded_list,regres_list)
 
 fh4.close()
 
+#The output file has no header, header will help understand the contents
+#Add a description at the begining of the file. what this script does, what is the expected format of input and what is the expected 
+#format of output. 
+#Display or print only useful information to the terminal; like success; name of output file etc
+#use a debug switch in the command line to display other information that is only used for debug
